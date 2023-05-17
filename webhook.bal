@@ -13,7 +13,7 @@ service asgardeo:LoginService on webhookListener {
       //Not Implemented
       log:printInfo("--- event log started ---");
       log:printInfo(event.toJsonString());
-      log:printInfo(--- event log ended ---);
+      log:printInfo("--- event log ended ---");
     }
 }
 
